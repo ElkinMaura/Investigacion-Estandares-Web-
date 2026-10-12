@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Completo de CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Mi Proyecto CSS3</h1>
+        <p>Demostración de diseño vertical con Flexbox y estilos individuales</p>
+    </header>
+
+    <main class="contenedor-vertical">
+
+        <div class="caja caja-1">
+            <div class="etiqueta">Básico</div>
+            <h2>Caja Roja</h2>
+            <p>Usamos clases separadas (.caja-1, .caja-2, .caja-3) para darle a cada elemento un color de fuente
+                diferente y un borde único.</p>
+            <p>Esto demuestra cómo la cascada y la especificidad en CSS nos permiten sobrescribir estilos generales.</p>
+        </div>
+
+        <div class="caja caja-2">
+            <div class="etiqueta">Estructura</div>
+            <h2>Caja Verde</h2>
+            <p>El contenedor principal utiliza Flexbox con la propiedad <code>flex-direction: column</code> para apilar
+                las cajas una debajo de la otra.</p>
+            <p>Esta es la manera moderna de estructurar el contenido sin usar los antiguos "floats".</p>
+        </div>
+
+        <div class="caja caja-3">
+            <div class="etiqueta">Responsive</div>
+            <h2>Caja Azul</h2>
+            <p>Esta estructura vertical es ideal para dispositivos móviles, ya que facilita la lectura haciendo que el
+                usuario solo tenga que hacer scroll hacia abajo.</p>
+            <p>Con Media Queries, controlamos el ancho máximo en computadoras.</p>
+        </div>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Desarrollado para la clase de Estándares Web - 2026</p>
+    </footer>
+
+</body>
+
+</html>

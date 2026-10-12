@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.encabezado {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #e74c3c;
+}
+
+.pie-pagina {
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.contenedor-vertical {
+    padding: 40px 20px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.caja {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.caja p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.etiqueta {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.caja-1 {
+    color: #c0392b;
+    border-left: 8px solid #c0392b;
+}
+
+.caja-1 .etiqueta {
+    background-color: #c0392b;
+}
+
+.caja-2 {
+    color: #27ae60;
+    border-left: 8px solid #27ae60;
+}
+
+.caja-2 .etiqueta {
+    background-color: #27ae60;
+}
+
+.caja-3 {
+    color: #2980b9;
+    border-left: 8px solid #2980b9;
+}
+
+.caja-3 .etiqueta {
+    background-color: #2980b9;
+}
+
+
+@media (max-width: 600px) {
+    .caja {
+        padding: 20px;
+    }
+
+    .encabezado {
+        padding: 20px 10px;
+    }
+}
